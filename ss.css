@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box{
+    height: 140px;
+    width: 140px;
+    border: 10px solid black;
+    border-radius: 40px;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: cadetblue;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+
+.flash{
+    background-color: white;
+}
